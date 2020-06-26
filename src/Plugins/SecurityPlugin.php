@@ -121,6 +121,7 @@ class SecurityPlugin extends Injectable
             'errors'     => ['show401', 'show404', 'show500'],
             'session'    => ['index', 'register', 'start', 'end'],
             'contact'    => ['index', 'send'],
+            'henry'    => ['index', 'new', 'create', 'edit', 'save', 'delete'],
         ];
         foreach ($publicResources as $resource => $actions) {
             $acl->addComponent(new Component($resource), $actions);

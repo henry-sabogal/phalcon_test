@@ -18,6 +18,11 @@
         'title': 'Contact',
         'uri': '/contact/index',
         'with_auth': false
+    ],
+    'henry': [
+        'title': 'Henry',
+        'uri': '/henry/index',
+        'with_auth': false
     ]
 ] %}
 
